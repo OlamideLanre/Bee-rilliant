@@ -58,9 +58,9 @@ def SayWord():
 
 print("******BEE-RILLIANT*****")
 user= input("Please register by entering your name: ")
-print("******YOU READY? LETS GO!*****")
+print("******YOU READY?*****")
 option=input("yes/no: ")
-if option=="yes":
+if option=="yes" or option=="Yes":
     print(f"Welcome {user} to BEE-RILLIANT spelling bee!")
     print("LETS GO!")
     SayWord()
